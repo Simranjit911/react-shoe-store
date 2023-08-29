@@ -5,12 +5,12 @@ const Sidebar = () => {
   const { cat, setcat, setcom, setcolor } = useContext(userContext);
   console.log(cat);
   return (
-    <div className=" w-[100%] h-full flex flex-row mx-auto sm:w-[10%] md:flex-col bg-slate-400 rounded-md p-2 ">
+    <div className=" w-[100%] h-full flex flex-row mx-auto sm:w-[10%] md:flex-col bg-slate-400 rounded-md p-2 overflow-hidden">
       <div className="">
         {/* Category */}
-        <div className="flex flex-row  sm:flex-col items-center  justify-around">
-          <p className="text-sm font-semibold">Category</p>
-          <div className="flex flex-row sm:flex-col  justify-center flex-1">
+        <div className="flex flex-row  sm:flex-col items-center gap-1 justify-between">
+          <p className="text-md font-semibold">Category </p>
+          <div className="flex flex-row sm:flex-col  justify-center gap-2">
             <label className="flex items-center">
               <input
                 type="radio"
@@ -60,8 +60,8 @@ const Sidebar = () => {
         </div>
         {/* Brands */}
         <div className="flex flex-row  sm:flex-col items-center justify-between">
-          <p className="text-sm font-semibold">Brand </p>
-          <div className="flex flex-row sm:flex-col  justify-center  text-sm flex-1">
+          <p className="text-md font-semibold">Brand </p>
+          <div className="flex flex-row sm:flex-col  justify-center  gap-2">
             <label className="flex items-center">
               <input
                 type="radio"
@@ -111,8 +111,8 @@ const Sidebar = () => {
         </div>
         {/* Color */}
         <div className="flex flex-row  sm:flex-col items-center justify-between">
-          <p className="text-sm font-semibold">Color </p>
-          <div className="flex flex-row sm:flex-col  justify-center  flex-1">
+          <p className="text-md font-semibold">Color </p>
+          <div className="flex flex-row sm:flex-col  justify-center gap-2 ">
             <label className="flex items-center">
               <input
                 type="radio"
