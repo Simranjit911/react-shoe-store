@@ -7,12 +7,12 @@ function DarkModeComponent() {
       // Customize your dark mode settings here
       bottom: '35px', // default: '32px'
       right: 'unset', // default: '32px'
-      left: '32px', // default: 'unset'
-      time: '2s', // default: '0.3s'
+      left: '15px', // default: 'unset'
+      time: '1s', // default: '0.3s'
       mixColor: '#fff', // default: '#fff'
       backgroundColor: '#fff    ',  // default: '#fff'
-      buttonColorDark: '#133',  // default: '#100f2c'
-      buttonColorLight: '#000', // default: '#fff'
+      buttonColorDark: '#000',  // default: '#100f2c'
+      buttonColorLight: '#999', // default: '#fff'
       saveInCookies: false, // default: true,
       label: '🌓', // default: ''
       autoMatchOsTheme: true // default: true
